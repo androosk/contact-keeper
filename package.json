@@ -1,12 +1,16 @@
 {
   "name": "contact-keeper",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=12.4.0",
+    "yarn": ">=1.17.0"
+  },
   "scripts": {
     "server": "nodemon server.js",
     "client": "cd client && yarn start",
     "clientinstall": "yarn install --prefix client",
     "dev": "concurrently \"yarn server\" \"yarn client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false yarn install --prefix client && yarn build --prefix client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false yarn install --prefix client && yarn run build --prefix client"
   },
   "author": "Andrew Tirpok",
   "license": "MIT",
