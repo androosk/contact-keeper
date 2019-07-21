@@ -5,7 +5,7 @@
     "node": "12.4.0"
   },
   "scripts": {
-    "build": "cd client && build",
+    "build": "cd client && yarn build",
     "server": "nodemon server.js",
     "client": "cd client && npm start",
     "clientinstall": "yarn install --prefix client",
