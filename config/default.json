@@ -1,4 +1,4 @@
 {
-  "mongoURI": "mongodb://<dbuser>:<dbpassword>@ds161183.mlab.com:61183/heroku_60x6f89b",
+  "mongoURI": "mongodb://localhost/ContactKeeper",
   "jwtSecret": "mightbeyourdaddyssecret"
 }

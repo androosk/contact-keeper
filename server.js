@@ -1,11 +1,15 @@
 const express = require("express")
-const connectDB = require("./config/db")
+// const connectDB = require("./config/db")
+const mongoose = require("mongoose")
 const path = require("path")
 
 const app = express()
 
+const configDB = "mongodb://localhost/ContactKeeper"
+
 // Connect to our database
-connectDB()
+// connectDB()
+mongoose.connect(process.env.MONGODB_URI || configDB, {useNewUrlParser: true})
 
 // Init middleware
 app.use(express.json({ extended: false }))
