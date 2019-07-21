@@ -2,8 +2,7 @@
   "name": "contact-keeper",
   "version": "1.0.0",
   "engines": {
-    "node": ">=12.4.0",
-    "yarn": ">=1.17.0"
+    "node": "12.4.0"
   },
   "scripts": {
     "build": "cd client && react-scripts build",
