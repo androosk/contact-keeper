@@ -9,8 +9,7 @@
     "server": "nodemon server.js",
     "client": "cd client && yarn start",
     "clientinstall": "yarn install --prefix client",
-    "dev": "concurrently \"yarn server\" \"yarn client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false yarn install --prefix client && yarn run build --prefix client"
+    "dev": "concurrently \"yarn server\" \"yarn client\""
   },
   "author": "Andrew Tirpok",
   "license": "MIT",
