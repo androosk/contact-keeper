@@ -24,13 +24,18 @@ Contact Keeper uses the following tools and frameworks
 $ git clone https://github.com/androosk/contact-keeper.git
 ```
 #### Install Yarn Dependencies
-- cd into the root folder and run command
+- cd into the root folder
 ```sh
 $ yarn install
 ```
 - cd into the client folder
 ```sh
 $ yarn install
+```
+### Start MongoDB
+In the CLI, with mongodb installed
+```sh
+$ mongod
 ```
 #### Run Project
 In the root folder
